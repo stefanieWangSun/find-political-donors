@@ -3,9 +3,9 @@ import bisect
 import datetime
 
 # the three arguments are listed in run.sh
-file_path = sys.argv[1]
-filename_zip = sys.argv[2]
-filename_date = sys.argv[3]
+file_path = sys.argv[1]  # input file 
+filename_zip = sys.argv[2]  # output file medianvals_by_zip
+filename_date = sys.argv[3] # output file medianvals_by_date
 
 
 # define function for median of each transaction
